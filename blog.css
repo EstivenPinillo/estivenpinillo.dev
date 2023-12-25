@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Marcellus-Regular;
+    src: url(Marcellus/Marcellus-Regular.ttf);
+}
+
+.texto-blog {
+    margin-top: 20px;
+    text-align: justify;
+    font-family: Marcellus-Regular;
+}
