@@ -282,6 +282,12 @@
     border-width: 1px 0px 1px 0px;
 }
 
+@media screen and (min-width: 345px) and (max-width: 407px){
+    #header-main__sub-title__two {
+        margin-left: 0px;
+        color: var(--slate-blue);
+    }
+}
 
 @media screen and (min-width: 321px) and (max-width: 425px) {
 
