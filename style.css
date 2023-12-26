@@ -79,13 +79,14 @@
 }
 
 .navbar__element {
-    display: flex;
+    display: none;
     justify-content: space-evenly;
     align-items: center;
     height: 40px;
 }
 
 .navbar__element__li {
+    
     font-family: Philosopher-Bold;
     cursor: pointer;
 }
@@ -114,7 +115,7 @@
 
 #header-main__sub-title__two {
     margin-left: 20px;
-    color: var(--very-peri);
+    color: var(--slate-blue);
 }
 
 
@@ -172,7 +173,7 @@
 }
 
 .inf-tecnology__ul > li:nth-child(even) {
-    color: var(--very-peri);
+    color: var(--slate-blue);
 }
 
 
