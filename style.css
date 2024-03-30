@@ -1,4 +1,14 @@
 @font-face {
+    font-family: Merienda-Regular;
+    src: url(fonts/Merienda-Regular.ttf);
+}
+
+@font-face {
+    font-family: Updock-Regular;
+    src: url(fonts/Updock-Regular.ttf);
+}
+
+@font-face {
     font-family: Philosopher-Regular;
     src: url(Philosopher/Philosopher-Regular.ttf);
 }
