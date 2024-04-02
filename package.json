@@ -1,0 +1,24 @@
+{
+  "name": "estivenpinillotop",
+  "version": "1.4.1",
+  "description": "professional website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/project.scss css/project.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EstivenPinillo/estivenpinillo.dev.git"
+  },
+  "author": "marlon estiven pinillo carabali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EstivenPinillo/estivenpinillo.dev/issues"
+  },
+  "homepage": "https://github.com/EstivenPinillo/estivenpinillo.dev#readme",
+  "dependencies": {
+    "live-serve": "^0.0.0",
+    "live-server": "^1.2.2",
+    "node-sass": "^9.0.0"
+  }
+}

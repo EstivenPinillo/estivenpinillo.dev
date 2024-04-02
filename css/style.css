@@ -1,26 +1,26 @@
 @font-face {
     font-family: Merienda-Regular;
-    src: url(fonts/Merienda-Regular.ttf);
+    src: url(../fonts/Merienda-Regular.ttf);
 }
 
 @font-face {
     font-family: Updock-Regular;
-    src: url(fonts/Updock-Regular.ttf);
+    src: url(../fonts/Updock-Regular.ttf);
 }
 
 @font-face {
     font-family: Philosopher-Regular;
-    src: url(Philosopher/Philosopher-Regular.ttf);
+    src: url(../fonts/Philosopher/Philosopher-Regular.ttf);
 }
 
 @font-face {
     font-family: Philosopher-Bold;
-    src: url(Philosopher/Philosopher-Bold.ttf);
+    src: url(../fonts/Philosopher/Philosopher-Bold.ttf);
 }
 
 @font-face {
     font-family: Philosopher-Italic;
-    src: url(Philosopher/Philosopher-Italic.ttf);
+    src: url(../fonts/Philosopher/Philosopher-Italic.ttf);
 }
 
 
