@@ -1,3 +1,59 @@
-.queso{
-    fe
+@font-face {
+    font-family: Rancho-Regular;
+    src: url(../fonts/Rancho/Rancho-Regular.ttf);
+}
+
+@font-face {
+    font-family: Amaranth-Regular;
+    src: url(../fonts/Amaranth/Amaranth-Regular.ttf);
+}
+
+@font-face {
+    font-family: Overpass;
+    src: url(../fonts/Overpass/Overpass-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Pompiere-Regular;
+    src: url(../fonts/Pompiere/Pompiere-Regular.ttf);
+}
+
+@font-face {
+    font-family: Righteous-Regular;
+    src: url(../fonts/Righteous/Righteous-Regular.ttf);
+}
+
+@font-face {
+    font-family: Yusei-Magic;
+    src: url(../fonts/Yusei_Magic/YuseiMagic-Regular.ttf);
+}
+
+.f-rancho {
+    font-family: Rancho-Regular;
+}
+
+.f-overpass {
+    font-family: Overpass;
+}
+
+.f-amaranth {
+    font-family: Amaranth-Regular;
+}
+
+.f-pompiere {
+    font-family: Pompiere-Regular;
+}
+
+.f-righteous {
+    font-family: Righteous-Regular;
+}
+
+.f-yuseimagic {
+    font-family: Yusei-Magic;
+}
+
+.software {
+    grid-column: 3/3;
+    padding-top: 80px;
+    font-size: 3rem;
 }
