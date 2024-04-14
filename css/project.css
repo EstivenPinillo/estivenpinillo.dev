@@ -1,46 +1,112 @@
 @font-face {
-  font-family: Rancho-Regular;
-  src: url(../fonts/Rancho/Rancho-Regular.ttf); }
+  font-family: Kite_One;
+  src: url(../fonts/Kite_One/KiteOne-Regular.ttf); }
 
 @font-face {
-  font-family: Amaranth-Regular;
-  src: url(../fonts/Amaranth/Amaranth-Regular.ttf); }
+  font-family: Marcellus;
+  src: url(../fonts/Marcellus/Marcellus-Regular.ttf); }
 
 @font-face {
-  font-family: Overpass;
-  src: url(../fonts/Overpass/Overpass-VariableFont_wght.ttf); }
+  font-family: Philosopher;
+  src: url(../fonts/Philosopher/Philosopher-Regular.ttf); }
 
-@font-face {
-  font-family: Pompiere-Regular;
-  src: url(../fonts/Pompiere/Pompiere-Regular.ttf); }
+.font-kiteone {
+  font-family: Kite_One; }
 
-@font-face {
-  font-family: Righteous-Regular;
-  src: url(../fonts/Righteous/Righteous-Regular.ttf); }
+.font-marcellus {
+  font-family: Marcellus; }
 
-@font-face {
-  font-family: Yusei-Magic;
-  src: url(../fonts/Yusei_Magic/YuseiMagic-Regular.ttf); }
+.font-philosopher {
+  font-family: Philosopher; }
 
-.f-rancho {
-  font-family: Rancho-Regular; }
+.developed-software {
+  grid-column: 1/6;
+  margin-top: 80px;
+  display: inherit; }
 
-.f-overpass {
-  font-family: Overpass; }
+.head-b {
+  font-size: 27px;
+  grid-column: 1/6;
+  text-align: center; }
 
-.f-amaranth {
-  font-family: Amaranth-Regular; }
+.head-s {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px; }
 
-.f-pompiere {
-  font-family: Pompiere-Regular; }
-
-.f-righteous {
-  font-family: Righteous-Regular; }
-
-.f-yuseimagic {
-  font-family: Yusei-Magic; }
+.t-center {
+  text-align: center; }
 
 .software {
-  grid-column: 3/3;
-  padding-top: 80px;
-  font-size: 3rem; }
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 40px;
+  border-radius: 5px; }
+  .software-collection {
+    grid-column: 1/6;
+    margin-top: 50px; }
+  .software-inf {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #1B03A3;
+    border-radius: 0px 10px 0px 10px; }
+  .software-img {
+    border-radius: 0px 10px 0px 10px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover; }
+
+.technology {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 35px; }
+  .technology > span {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #1B03A3;
+    color: #1B03A3;
+    background-color: white; }
+    .technology > span:not(:first-child) {
+      margin-left: 10px; }
+
+.btn {
+  padding: 5px;
+  width: 80%;
+  margin-top: 12px;
+  border-radius: 0px 10px 0px 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-bottom-color: #1B03A3;
+  border-left-color: #4169E1;
+  border-right-color: #1B03A3;
+  border-top-color: #4169E1;
+  cursor: pointer;
+  background-color: white;
+  font-size: 20px; }
+  .btn:hover {
+    border-radius: 10px 0px 10px 0px; }
+
+@media screen and (min-width: 375px) {
+  .software {
+    width: 300px;
+    text-align: center;
+    padding: 10px; }
+  .software-collection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly; } }
+
+@media screen and (min-width: 768px) {
+  .head-b {
+    grid-column: 2/5;
+    font-size: 45px; }
+  .software-collection {
+    grid-column: 1/6; }
+  .developed-software {
+    grid-column: 1/6;
+    margin-top: 80px;
+    display: inherit; } }
