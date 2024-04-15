@@ -4,7 +4,8 @@
   "description": "professional website",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/project.scss css/project.css -w"
+    "compile:sass": "node-sass sass/project.scss css/project.css -w",
+    "compile:sass": "node-sass sass/palette.scss css/palette.css -w"
   },
   "repository": {
     "type": "git",
