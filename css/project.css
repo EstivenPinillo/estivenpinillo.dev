@@ -1,4 +1,8 @@
 @font-face {
+  font-family: Federo;
+  src: url(../fonts/Federo/Federo-Regular.ttf); }
+
+@font-face {
   font-family: Kite_One;
   src: url(../fonts/Kite_One/KiteOne-Regular.ttf); }
 
@@ -10,6 +14,36 @@
   font-family: Philosopher;
   src: url(../fonts/Philosopher/Philosopher-Regular.ttf); }
 
+@font-face {
+  font-family: Philosopher-Bold;
+  src: url(../fonts/Philosopher/Philosopher-Bold.ttf); }
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ New CSS OOCSS*/
+/*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
+.bg-palepurple {
+  background-color: #e5d9f2ff; }
+
+.bg-magnolia {
+  background-color: #f5efffff; }
+
+.bg-periwinkle {
+  background-color: #cdc1ffff; }
+
+.bg-tropicalindigo {
+  background-color: #a594f9ff; }
+
+.bg-mediumslateblue {
+  background-color: #7371fcff; }
+
+.c-black {
+  color: #000000; }
+
+.br-4 {
+  border-radius: 4px; }
+
+.font-federo {
+  font-family: Federo; }
+
 .font-kiteone {
   font-family: Kite_One; }
 
@@ -18,95 +52,112 @@
 
 .font-philosopher {
   font-family: Philosopher; }
+  .font-philosopher--bold {
+    font-family: Philosopher-Bold;
+    color: #000000; }
 
-.developed-software {
-  grid-column: 1/6;
-  margin-top: 80px;
-  display: inherit; }
+.t-shadow-0 {
+  color: #e5d9f2ff;
+  text-shadow: 1px 1px #000000; }
 
-.head-b {
-  font-size: 27px;
-  grid-column: 1/6;
-  text-align: center; }
+.t-shadow-1 {
+  color: #000000;
+  text-shadow: 1px 1px #f5efffff; }
 
-.head-s {
+.fs-title {
   font-size: 30px;
-  margin-top: 10px;
-  margin-bottom: 20px; }
+  color: #000000; }
+
+.object-fit-cover {
+  object-fit: cover; }
+
+.wh-100x300 {
+  width: 100%;
+  height: 300px; }
+
+.fw-bold {
+  font-weight: bold; }
+
+.fs-m {
+  font-size: 20px; }
 
 .t-center {
   text-align: center; }
 
-.software {
-  text-align: center;
-  padding: 10px;
-  background-color: white;
-  margin-bottom: 40px;
-  border-radius: 5px; }
-  .software-collection {
-    grid-column: 1/6;
-    margin-top: 50px; }
-  .software-inf {
-    width: 100%;
-    height: 300px;
-    border: 1px solid #1B03A3;
-    border-radius: 0px 10px 0px 10px; }
-  .software-img {
-    border-radius: 0px 10px 0px 10px;
-    width: 100%;
-    height: 300px;
-    object-fit: cover; }
-
 .technology {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #a594f9ff;
+  color: #000000;
+  background-color: #f5efffff;
+  font-size: 8px; }
+  .technology:not(:first-child) {
+    margin-left: 10px; }
+
+/*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
+/*+++++++++++++++++++++++++++++++ Content New CSS OOCSS*/
+.developed-software {
+  grid-column: 1/6;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; }
+
+.header-section {
+  grid-column: 2/2; }
+
+.header-sub {
+  padding: 10px; }
+
+.software-list {
+  grid-column: 2/2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 80px; }
+
+.software {
+  padding: 5px;
+  text-align: center;
+  margin: 0px 5px 30px 5px; }
+
+.developed-in {
   display: flex;
   justify-content: center;
   position: relative;
   bottom: 35px; }
-  .technology > span {
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #1B03A3;
-    color: #1B03A3;
-    background-color: white; }
-    .technology > span:not(:first-child) {
-      margin-left: 10px; }
 
-.btn {
-  padding: 5px;
-  width: 80%;
-  margin-top: 12px;
-  border-radius: 0px 10px 0px 10px;
-  border-width: 2px;
-  border-style: solid;
-  border-bottom-color: #1B03A3;
-  border-left-color: #4169E1;
-  border-right-color: #1B03A3;
-  border-top-color: #4169E1;
-  cursor: pointer;
-  background-color: white;
-  font-size: 20px; }
-  .btn:hover {
-    border-radius: 10px 0px 10px 0px; }
+/*+++++++++++++++++++++++++++++++ Content New CSS OOCSS*/
+/*+++++++++++++++++++++++++++++++ ID New CSS OOCSS*/
+@media screen and (max-width: 464px) {
+  #marlon {
+    display: none; } }
+
+@media screen and (max-width: 668px) {
+  #carabali {
+    display: none; } }
+
+@media screen and (min-width: 669px) {
+  #marlon {
+    display: inline; }
+  #carabali {
+    display: inline; } }
+
+/*++++++++++++++++++++++++++++ ID EndNew CSS OOCSS*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ EndNew CSS OOCSS*/
+@media screen and (min-width: 320px) {
+  .software {
+    width: 300px; } }
 
 @media screen and (min-width: 375px) {
-  .software {
-    width: 300px;
-    text-align: center;
-    padding: 10px; }
-  .software-collection {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly; } }
+  .fs-title {
+    font-size: 35px; } }
 
 @media screen and (min-width: 768px) {
-  .head-b {
-    grid-column: 2/5;
-    font-size: 45px; }
-  .software-collection {
-    grid-column: 1/6; }
-  .developed-software {
-    grid-column: 1/6;
-    margin-top: 80px;
-    display: inherit; } }
+  .fs-title {
+    font-size: 45px; } }
+
+@media screen and (min-width: 1440px) {
+  .software {
+    margin: 0px 20px 30px 20px; } }
