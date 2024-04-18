@@ -89,6 +89,10 @@ $medium-slate-blue: #7371fcff;
     border-radius: 4px;
 }
 
+.ml-20 {
+    margin-left: 20px;
+}
+
 .font-federo {
     font-family: Federo;
 }
@@ -146,6 +150,10 @@ $medium-slate-blue: #7371fcff;
 
 .fs-m {
     font-size: 20px;
+}
+
+.fs-b {
+    font-size: 45px;
 }
 
 .t-center {
@@ -214,6 +222,10 @@ $medium-slate-blue: #7371fcff;
 }
 
 .header {
+
+    &-main {
+        grid-column: 3 / 3 ;
+    }
 
     &-section {
         grid-column: 2/2;
