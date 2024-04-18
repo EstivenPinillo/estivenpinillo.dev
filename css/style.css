@@ -109,17 +109,10 @@
 
 
 
-.header-main {
-    grid-column: 3 / 3 ;
-}
-
 #header-main__title {
     font-size: 45px;
 }
 
-.header-main__sub-title {
-    margin-top: 10px;
-}
 
 #header-main__sub-title__two {
     margin-left: 20px;
