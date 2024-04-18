@@ -50,8 +50,39 @@ $medium-slate-blue: #7371fcff;
     background-color: $medium-slate-blue;
 }
 
+.color-mediumslateblue {
+    color: $medium-slate-blue;
+}
+
+.color-palepurple {
+    color: $pale-purple;
+}
+
+.color-periwinkle {
+    color: $periwinkle;
+}
+
+.color-tropicalindigo {
+    color: $tropical-indigo;
+    &:visited {
+        color: $tropical-indigo;
+    }
+}
+
 .c-black {
     color: #000000;
+}
+
+.b-palepurple {
+    border: 1px solid $pale-purple;
+}
+
+.b-magnolia {
+    border: 1px solid $magnolia;
+}
+
+.b-tropicalindigo {
+    border: 1px solid $tropical-indigo;
 }
 
 .br-4 {
@@ -137,6 +168,44 @@ $medium-slate-blue: #7371fcff;
 
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
 /*+++++++++++++++++++++++++++++++ Content New CSS OOCSS*/
+
+.navigation {
+    grid-column: 3 / 5;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 90px;
+    margin-bottom: 40px;
+
+    &-opt {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        height: 50px;
+    }
+
+}
+
+.opt {
+    
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+
+    &:hover {
+        background-color: $magnolia;
+    }
+}
+
+
 .developed-software {
     grid-column: 1/6;
     margin-top: 80px;
@@ -219,6 +288,14 @@ $medium-slate-blue: #7371fcff;
         font-size: 35px;
     }
 
+}
+
+@media screen and (min-width: 425px){
+    
+    #DSoftware::before {
+        content:'Solicitar D.';
+        margin: 4px;
+    }
 }
 
 @media screen and (min-width: 768px) { 
