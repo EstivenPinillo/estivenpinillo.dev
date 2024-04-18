@@ -35,8 +35,31 @@
 .bg-mediumslateblue {
   background-color: #7371fcff; }
 
+.color-mediumslateblue {
+  color: #7371fcff; }
+
+.color-palepurple {
+  color: #e5d9f2ff; }
+
+.color-periwinkle {
+  color: #cdc1ffff; }
+
+.color-tropicalindigo {
+  color: #a594f9ff; }
+  .color-tropicalindigo:visited {
+    color: #a594f9ff; }
+
 .c-black {
   color: #000000; }
+
+.b-palepurple {
+  border: 1px solid #e5d9f2ff; }
+
+.b-magnolia {
+  border: 1px solid #f5efffff; }
+
+.b-tropicalindigo {
+  border: 1px solid #a594f9ff; }
 
 .br-4 {
   border-radius: 4px; }
@@ -96,6 +119,32 @@
 
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
 /*+++++++++++++++++++++++++++++++ Content New CSS OOCSS*/
+.navigation {
+  grid-column: 3 / 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90px;
+  margin-bottom: 40px; }
+  .navigation-opt {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 50px; }
+
+.opt {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  box-sizing: border-box; }
+  .opt:hover {
+    background-color: #f5efffff; }
+
 .developed-software {
   grid-column: 1/6;
   margin-top: 80px;
@@ -153,6 +202,11 @@
 @media screen and (min-width: 375px) {
   .fs-title {
     font-size: 35px; } }
+
+@media screen and (min-width: 425px) {
+  #DSoftware::before {
+    content: 'Solicitar D.';
+    margin: 4px; } }
 
 @media screen and (min-width: 768px) {
   .fs-title {
