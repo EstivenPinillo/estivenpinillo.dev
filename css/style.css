@@ -122,9 +122,8 @@
 
 
 .inf-tecnology {
-    position: relative;
-    grid-column: 3 / 3 ;
-    margin-top: 40px;
+    
+    
 }
 
 .inf-tecnology__profile {
@@ -141,11 +140,8 @@
 }
 
 .inf-tecnology__header {
-    display: flex;
-    align-items: center;
-    font-family: Philosopher-Bold;
-    font-size: 18px;
-    width: 100%;
+    
+    
 }
 
 .inf-tecnology__header__title {
@@ -153,7 +149,7 @@
 }
 
 .line {
-    border: 1px solid var(--very-peri);
+    border: 5px solid var(--very-peri);
     border-width: 1px 0px 0px 0px;
     width: 50%;
 }
@@ -163,14 +159,11 @@
 }
 
 .inf-tecnology__ul {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top: 40px;
+    
 }
 
 .inf-tecnology__ul > li{
-    padding: 20px;
+    
 }
 
 .inf-tecnology__ul > li:nth-child(even) {
