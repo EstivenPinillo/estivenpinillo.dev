@@ -101,6 +101,10 @@ $medium-slate-blue: #7371fcff;
     margin-left: 10px;
 }
 
+.mb-30 {
+    margin-bottom: 30px;
+}
+
 .font-federo {
     font-family: Federo;
 }
@@ -169,17 +173,13 @@ $medium-slate-blue: #7371fcff;
 }
 
 .technology {
-    
+    position: relative;
     padding: 5px;
-    border-radius: 5px;
-    border: 1px solid $tropical-indigo;
-    color: #000000;
-    background-color: $magnolia;
-    font-size: 8px;
-
-    &:not(:first-child) {
-        margin-left: 10px;
-    }
+    border: 1px solid $medium-slate-blue;
+    color: $medium-slate-blue;
+    background-color: #fafaff;
+    font-size: 10px;
+    bottom: 30px;
 }
 
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
@@ -281,9 +281,60 @@ $medium-slate-blue: #7371fcff;
 
 .developed-in {
     display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.titulacion {
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tit-img {
+    width: 300px;
+    object-fit: contain;
+    
+}
+
+.tit-reverse {
+    transform: rotateY(180deg);
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.jc-spacearound {
+    justify-content: space-around;
+}
+
+.certificado {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo-next {
+    opacity: 0.2;
+}
+
+.foot {
     position: relative;
-    bottom: 35px;
+    grid-column: 1 / 6 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 80px;
 }
 
 /*+++++++++++++++++++++++++++++++ Content New CSS OOCSS*/
@@ -348,6 +399,10 @@ $medium-slate-blue: #7371fcff;
 
     .software {
         margin: 0px 20px 30px 20px;
+    }
+
+    .certificado {
+        margin: 0px 10px 20px 10px;
     }
 
 }
