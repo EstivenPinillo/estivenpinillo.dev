@@ -23,17 +23,12 @@
     src: url(../fonts/Philosopher/Philosopher-Italic.ttf);
 }
 
-
-
 :root {
     --very-peri: #6667AB;
     --lavender: #e6e6fa;
     --slate-blue: #6A5ACD;
     --dark-blue: #00008B;
 
-    --column: 0fr 1rem auto 1rem 0fr;
-
-    font-family: Philosopher-Regular;
     font-size: 16px;
 }
 

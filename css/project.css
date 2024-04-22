@@ -41,6 +41,9 @@
 .color-palepurple {
   color: #e5d9f2ff; }
 
+.color-magnolia {
+  color: #f5efffff; }
+
 .color-periwinkle {
   color: #cdc1ffff; }
 
@@ -60,6 +63,9 @@
 
 .b-tropicalindigo {
   border: 1px solid #a594f9ff; }
+
+.b-mediumslateblue {
+  border: 1px solid #7371fcff; }
 
 .br-4 {
   border-radius: 4px; }
@@ -106,10 +112,6 @@
 .object-fit-cover {
   object-fit: cover; }
 
-.wh-100x300 {
-  width: 100%;
-  height: 300px; }
-
 .fw-bold {
   font-weight: bold; }
 
@@ -123,12 +125,13 @@
   text-align: center; }
 
 .technology {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   position: relative;
-  padding: 5px;
-  border: 1px solid #7371fcff;
-  color: #7371fcff;
-  background-color: #fafaff;
-  font-size: 10px;
   bottom: 30px; }
 
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
@@ -200,6 +203,10 @@
   text-align: center;
   margin: 0px 5px 30px 5px; }
 
+.img-soft {
+  width: 100%;
+  height: 300px; }
+
 .developed-in {
   display: flex;
   justify-content: space-evenly; }
@@ -265,7 +272,7 @@
 /*++++++++++++++++++++++++++++ ID EndNew CSS OOCSS*/
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ EndNew CSS OOCSS*/
 @media screen and (min-width: 320px) {
-  .software {
+  .img-soft {
     width: 300px; } }
 
 @media screen and (min-width: 375px) {
