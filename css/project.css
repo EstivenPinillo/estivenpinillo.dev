@@ -52,7 +52,7 @@
   .color-tropicalindigo:visited {
     color: #a594f9ff; }
 
-.c-black {
+.color-black {
   color: #000000; }
 
 .b-palepurple {
@@ -224,7 +224,8 @@
   transform: rotateY(180deg); }
 
 .width-100 {
-  width: 100%; }
+  width: 100%;
+  height: 220px; }
 
 .jc-spacearound {
   justify-content: space-around; }
@@ -234,7 +235,14 @@
   flex-direction: column;
   width: 300px;
   box-sizing: border-box;
-  margin-bottom: 30px; }
+  margin: 0px 10px 30px 10px; }
+
+.cetificado-list {
+  grid-column: 2/2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
 
 .titulo {
   display: flex;
@@ -290,6 +298,4 @@
 
 @media screen and (min-width: 1440px) {
   .software {
-    margin: 0px 20px 30px 20px; }
-  .certificado {
-    margin: 0px 10px 20px 10px; } }
+    margin: 0px 20px 30px 20px; } }
