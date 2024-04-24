@@ -33,8 +33,61 @@
     src: url(../fonts/Amita/Amita-Bold.ttf);
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ New CSS OOCSS*/
-/*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
 
+.display-none {
+    display: none;
+}
+
+$oxford-blue: #061a40ff;
+$ghost-white: #fef9ffff;
+$thistle: #d4c1ecff;
+$robin-egg-blue: #52d1dcff;
+$medium-slate-blue: #736cedff;
+
+.backcolor-oxfordblue {
+    background-color: $oxford-blue;
+}
+
+.backcolor-ghostwhite {
+    background-color: $ghost-white;
+}
+
+.backcolor-thistle {
+    background-color: $thistle;
+}
+
+.backcolor-robineggblue {
+    background-color: $robin-egg-blue;
+}
+
+.backcolor-medium-slate-blue {
+    background-color: $medium-slate-blue;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.color-oxfordblue {
+    color: $oxford-blue;
+}
+
+.color-ghostwhite {
+    color: $ghost-white;
+}
+
+.color-thistle {
+    color: $thistle;
+}
+
+.color-robineggblue {
+    color: $robin-egg-blue;
+}
+
+.color-mediumslateblue {
+    color: $medium-slate-blue;
+}
+/*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
 :root {
     font-size: 16px;
 }
@@ -44,7 +97,6 @@ $magnolia: #f5efffff;
 $periwinkle: #cdc1ffff;
 $tropical-indigo: #a594f9ff;
 $medium-slate-blue: #7371fcff;
-$oxford-blue: #061A40;
 
 .bg-palepurple {
     background-color: $pale-purple;
@@ -64,14 +116,6 @@ $oxford-blue: #061A40;
 
 .bg-mediumslateblue {
     background-color: $medium-slate-blue;
-}
-
-.color-mediumslateblue {
-    color: $medium-slate-blue;
-}
-
-.color-oxfordblue {
-    color: $oxford-blue;
 }
 
 .color-palepurple {
