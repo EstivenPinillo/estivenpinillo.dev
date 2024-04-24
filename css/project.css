@@ -18,8 +18,19 @@
   font-family: Philosopher-Bold;
   src: url(../fonts/Philosopher/Philosopher-Bold.ttf); }
 
+@font-face {
+  font-family: Amita;
+  src: url(../fonts/Amita/Amita-Regular.ttf); }
+
+@font-face {
+  font-family: Amita-Bold;
+  src: url(../fonts/Amita/Amita-Bold.ttf); }
+
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ New CSS OOCSS*/
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
+:root {
+  font-size: 16px; }
+
 .bg-palepurple {
   background-color: #e5d9f2ff; }
 
@@ -37,6 +48,9 @@
 
 .color-mediumslateblue {
   color: #7371fcff; }
+
+.color-oxfordblue {
+  color: #061A40; }
 
 .color-palepurple {
   color: #e5d9f2ff; }
@@ -128,11 +142,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  border-radius: 5px;
   position: relative;
-  bottom: 30px; }
+  background-color: #061A40;
+  color: #ffffff;
+  margin: 4px;
+  bottom: 32px;
+  font-family: Amita-Bold; }
 
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
 /*+++++++++++++++++++++++++++++++ Content New CSS OOCSS*/
@@ -209,7 +227,7 @@
 
 .developed-in {
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: center; }
 
 .titulacion {
   display: flex;
@@ -242,7 +260,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-evenly; }
 
 .titulo {
   display: flex;
