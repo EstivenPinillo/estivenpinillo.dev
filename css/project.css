@@ -27,6 +27,42 @@
   src: url(../fonts/Amita/Amita-Bold.ttf); }
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ New CSS OOCSS*/
+.display-none {
+  display: none; }
+
+.backcolor-oxfordblue {
+  background-color: #061a40ff; }
+
+.backcolor-ghostwhite {
+  background-color: #fef9ffff; }
+
+.backcolor-thistle {
+  background-color: #d4c1ecff; }
+
+.backcolor-robineggblue {
+  background-color: #52d1dcff; }
+
+.backcolor-medium-slate-blue {
+  background-color: #736cedff; }
+
+.color-white {
+  color: #ffffff; }
+
+.color-oxfordblue {
+  color: #061a40ff; }
+
+.color-ghostwhite {
+  color: #fef9ffff; }
+
+.color-thistle {
+  color: #d4c1ecff; }
+
+.color-robineggblue {
+  color: #52d1dcff; }
+
+.color-mediumslateblue {
+  color: #736cedff; }
+
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
 :root {
   font-size: 16px; }
@@ -45,12 +81,6 @@
 
 .bg-mediumslateblue {
   background-color: #7371fcff; }
-
-.color-mediumslateblue {
-  color: #7371fcff; }
-
-.color-oxfordblue {
-  color: #061A40; }
 
 .color-palepurple {
   color: #e5d9f2ff; }
@@ -146,7 +176,7 @@
   height: 55px;
   border-radius: 5px;
   position: relative;
-  background-color: #061A40;
+  background-color: #061a40ff;
   color: #ffffff;
   margin: 4px;
   bottom: 32px;
