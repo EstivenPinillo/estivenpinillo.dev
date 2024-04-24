@@ -22,13 +22,29 @@
     font-family: Philosopher-Bold;
     src: url(../fonts/Philosopher/Philosopher-Bold.ttf);
 }
+
+@font-face {
+    font-family: Amita;
+    src: url(../fonts/Amita/Amita-Regular.ttf);
+}
+
+@font-face {
+    font-family: Amita-Bold;
+    src: url(../fonts/Amita/Amita-Bold.ttf);
+}
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ New CSS OOCSS*/
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
+
+:root {
+    font-size: 16px;
+}
+
 $pale-purple: #e5d9f2ff;
 $magnolia: #f5efffff;
 $periwinkle: #cdc1ffff;
 $tropical-indigo: #a594f9ff;
 $medium-slate-blue: #7371fcff;
+$oxford-blue: #061A40;
 
 .bg-palepurple {
     background-color: $pale-purple;
@@ -52,6 +68,10 @@ $medium-slate-blue: #7371fcff;
 
 .color-mediumslateblue {
     color: $medium-slate-blue;
+}
+
+.color-oxfordblue {
+    color: $oxford-blue;
 }
 
 .color-palepurple {
@@ -179,12 +199,15 @@ $medium-slate-blue: #7371fcff;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
     position: relative;
-    
-    bottom: 30px;
+    background-color: $oxford-blue;
+    color: #ffffff;
+    margin: 4px;
+    bottom: 32px;
+    font-family: Amita-Bold;
 }
 
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
@@ -291,8 +314,7 @@ $medium-slate-blue: #7371fcff;
 
 .developed-in {
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: center;
 }
 
 .titulacion {

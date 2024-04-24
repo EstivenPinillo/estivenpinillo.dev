@@ -23,14 +23,6 @@
     src: url(../fonts/Philosopher/Philosopher-Italic.ttf);
 }
 
-:root {
-    --very-peri: #6667AB;
-    --lavender: #e6e6fa;
-    --slate-blue: #6A5ACD;
-    --dark-blue: #00008B;
-
-    font-size: 16px;
-}
 
 .color--dark-blue {
     color: var(--dark-blue);
