@@ -38,11 +38,16 @@
     display: none;
 }
 
-$oxford-blue: #061a40ff;
+$oxford-blue: #191055 ;
 $ghost-white: #fef9ffff;
 $thistle: #d4c1ecff;
 $robin-egg-blue: #52d1dcff;
-$medium-slate-blue: #736cedff;
+$medium-slate-blue: #6553de;
+$antiflash-white: #eef0f2ff;
+
+.backcolor-antiflashwhite {
+    background-color: $antiflash-white;
+}
 
 .backcolor-oxfordblue {
     background-color: $oxford-blue;
@@ -62,6 +67,10 @@ $medium-slate-blue: #736cedff;
 
 .backcolor-medium-slate-blue {
     background-color: $medium-slate-blue;
+}
+
+.backcolor-white {
+    background-color: #ffffff;
 }
 
 .color-white {
@@ -86,6 +95,16 @@ $medium-slate-blue: #736cedff;
 
 .color-mediumslateblue {
     color: $medium-slate-blue;
+}
+
+.border-robineggblue {
+    border-width: 0px 0px 2px 2px;
+    border-color: $robin-egg-blue;
+    border-style: solid;
+}
+
+.box-shadow {
+    box-shadow: -1px 1px 1px #3220ab;
 }
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
 :root {
@@ -115,7 +134,7 @@ $medium-slate-blue: #7371fcff;
 }
 
 .bg-mediumslateblue {
-    background-color: $medium-slate-blue;
+    background-color: #6553de;
 }
 
 .color-palepurple {
@@ -150,7 +169,7 @@ $medium-slate-blue: #7371fcff;
 }
 
 .b-tropicalindigo {
-    border: 1px solid $tropical-indigo;
+    border: 1px solid #b2a9ee;
 }
 
 .b-mediumslateblue {
@@ -159,6 +178,10 @@ $medium-slate-blue: #7371fcff;
 
 .br-4 {
     border-radius: 4px;
+}
+
+.borderadius-l {
+    border-radius: 5px;
 }
 
 .mt-40 {
@@ -247,7 +270,7 @@ $medium-slate-blue: #7371fcff;
     height: 55px;
     border-radius: 5px;
     position: relative;
-    background-color: $oxford-blue;
+    background-color: #6553de;
     color: #ffffff;
     margin: 4px;
     bottom: 32px;
@@ -257,8 +280,12 @@ $medium-slate-blue: #7371fcff;
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
 /*+++++++++++++++++++++++++++++++ Content New CSS OOCSS*/
 
-.navigation {
+.gridcolum3-5 {
     grid-column: 3 / 5;
+}
+
+.navigation {
+    grid-column: 1 / 6;
 
     display: flex;
     flex-direction: column;
@@ -289,7 +316,8 @@ $medium-slate-blue: #7371fcff;
     box-sizing: border-box;
 
     &:hover {
-        background-color: $magnolia;
+        background-color: #b2a9ee;
+        color: #ffffff;
     }
 }
 
@@ -304,12 +332,13 @@ $medium-slate-blue: #7371fcff;
     &> li {
         padding: 10px;
 
-        &:hover {
-            background-color: $magnolia;
+        &:nth-child(even) {
+            color: #3220ab;
         }
 
-        &:nth-child(even) {
-            color: $medium-slate-blue;
+        &:hover {
+            background-color: #6553de;
+            color: #ffffff;
         }
     }
 }
@@ -468,7 +497,7 @@ $medium-slate-blue: #7371fcff;
     
     #DSoftware::before {
         content:'Solicitar D.';
-        margin: 4px;
+        margin-right: 4px;
     }
 }
 
