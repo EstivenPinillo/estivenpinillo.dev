@@ -34,8 +34,12 @@
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ New CSS OOCSS*/
 
-.display-none {
-    display: none;
+.display { 
+    
+    &-none {
+        display: none;
+    }
+
 }
 
 $oxford-blue: #191055 ;
@@ -45,67 +49,26 @@ $robin-egg-blue: #52d1dcff;
 $medium-slate-blue: #6553de;
 $antiflash-white: #eef0f2ff;
 
-.backcolor-antiflashwhite {
-    background-color: $antiflash-white;
-}
-
-.backcolor-oxfordblue {
-    background-color: $oxford-blue;
-}
-
-.backcolor-ghostwhite {
-    background-color: $ghost-white;
-}
-
-.backcolor-thistle {
-    background-color: $thistle;
-}
-
-.backcolor-robineggblue {
-    background-color: $robin-egg-blue;
-}
-
-.backcolor-medium-slate-blue {
-    background-color: $medium-slate-blue;
-}
-
-.backcolor-white {
-    background-color: #ffffff;
-}
-
-.color-white {
+#devsoftware {
+    position: relative;
+    width: 183.23px;
+    height: 40px;
     color: #ffffff;
+
+    &-opt {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0px;
+        z-index: 50;
+        height: 40px;
+        width: 183.23px;
+        background-color: #6D23B6;
+        border-radius: 50px;
+    }
 }
 
-.color-oxfordblue {
-    color: $oxford-blue;
-}
-
-.color-ghostwhite {
-    color: $ghost-white;
-}
-
-.color-thistle {
-    color: $thistle;
-}
-
-.color-robineggblue {
-    color: $robin-egg-blue;
-}
-
-.color-mediumslateblue {
-    color: $medium-slate-blue;
-}
-
-.border-robineggblue {
-    border-width: 0px 0px 2px 2px;
-    border-color: $robin-egg-blue;
-    border-style: solid;
-}
-
-.box-shadow {
-    box-shadow: -1px 1px 1px #3220ab;
-}
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
 :root {
     font-size: 16px;
@@ -116,65 +79,6 @@ $magnolia: #f5efffff;
 $periwinkle: #cdc1ffff;
 $tropical-indigo: #a594f9ff;
 $medium-slate-blue: #7371fcff;
-
-.bg-palepurple {
-    background-color: $pale-purple;
-}
-
-.bg-magnolia {
-    background-color: $magnolia;
-}
-
-.bg-periwinkle {
-    background-color: $periwinkle;
-}
-
-.bg-tropicalindigo {
-    background-color: $tropical-indigo;
-}
-
-.bg-mediumslateblue {
-    background-color: #6553de;
-}
-
-.color-palepurple {
-    color: $pale-purple;
-}
-
-.color-magnolia {
-    color: $magnolia;
-}
-
-.color-periwinkle {
-    color: $periwinkle;
-}
-
-.color-tropicalindigo {
-    color: $tropical-indigo;
-    &:visited {
-        color: $tropical-indigo;
-    }
-}
-
-.color-black {
-    color: #000000;
-}
-
-.b-palepurple {
-    border: 1px solid $pale-purple;
-}
-
-.b-magnolia {
-    border: 1px solid $magnolia;
-}
-
-.b-tropicalindigo {
-    border: 1px solid #b2a9ee;
-}
-
-.b-mediumslateblue {
-    border: 1px solid $medium-slate-blue;
-}
 
 .br-4 {
     border-radius: 4px;
@@ -280,10 +184,6 @@ $medium-slate-blue: #7371fcff;
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
 /*+++++++++++++++++++++++++++++++ Content New CSS OOCSS*/
 
-.gridcolum3-5 {
-    grid-column: 3 / 5;
-}
-
 .navigation {
     grid-column: 1 / 6;
 
@@ -315,9 +215,18 @@ $medium-slate-blue: #7371fcff;
     cursor: pointer;
     box-sizing: border-box;
 
-    &:hover {
-        background-color: #b2a9ee;
-        color: #ffffff;
+    &-software {
+        position: absolute;
+        left: 0px;
+        width: 183.23px;
+        height: 40px;
+        background-color: #6D23B6;
+        rotate: 185deg;
+        border-radius: 50px;
+
+        &:nth-child(1) {
+            rotate: 175deg; 
+        }
     }
 }
 
@@ -493,11 +402,9 @@ $medium-slate-blue: #7371fcff;
 
 }
 
-@media screen and (min-width: 425px){
-    
-    #DSoftware::before {
-        content:'Solicitar D.';
-        margin-right: 4px;
+@media screen and (max-width: 425px){
+    .display-menu {
+        display: none;
     }
 }
 
@@ -505,6 +412,10 @@ $medium-slate-blue: #7371fcff;
     
     .fs-title {
         font-size: 45px;
+    }
+
+    .navigation {
+        grid-column: 2/5;
     }
 
 }
