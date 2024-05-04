@@ -34,8 +34,12 @@
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ New CSS OOCSS*/
 
-.display-none {
-    display: none;
+.display { 
+    
+    &-none {
+        display: none;
+    }
+
 }
 
 $oxford-blue: #191055 ;
@@ -44,6 +48,26 @@ $thistle: #d4c1ecff;
 $robin-egg-blue: #52d1dcff;
 $medium-slate-blue: #6553de;
 $antiflash-white: #eef0f2ff;
+
+#devsoftware {
+    position: relative;
+    width: 183.23px;
+    height: 40px;
+    color: #ffffff;
+
+    &-opt {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0px;
+        z-index: 50;
+        height: 40px;
+        width: 183.23px;
+        background-color: #6D23B6;
+        border-radius: 50px;
+    }
+}
 
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
 :root {
@@ -160,10 +184,6 @@ $medium-slate-blue: #7371fcff;
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
 /*+++++++++++++++++++++++++++++++ Content New CSS OOCSS*/
 
-.gridcolum3-5 {
-    grid-column: 3 / 5;
-}
-
 .navigation {
     grid-column: 1 / 6;
 
@@ -195,9 +215,18 @@ $medium-slate-blue: #7371fcff;
     cursor: pointer;
     box-sizing: border-box;
 
-    &:hover {
-        background-color: #b2a9ee;
-        color: #ffffff;
+    &-software {
+        position: absolute;
+        left: 0px;
+        width: 183.23px;
+        height: 40px;
+        background-color: #6D23B6;
+        rotate: 185deg;
+        border-radius: 50px;
+
+        &:nth-child(1) {
+            rotate: 175deg; 
+        }
     }
 }
 
@@ -373,11 +402,9 @@ $medium-slate-blue: #7371fcff;
 
 }
 
-@media screen and (min-width: 425px){
-    
-    #DSoftware::before {
-        content:'Solicitar D.';
-        margin-right: 4px;
+@media screen and (max-width: 425px){
+    .display-menu {
+        display: none;
     }
 }
 
@@ -385,6 +412,10 @@ $medium-slate-blue: #7371fcff;
     
     .fs-title {
         font-size: 45px;
+    }
+
+    .navigation {
+        grid-column: 2/5;
     }
 
 }

@@ -30,6 +30,23 @@
 .display-none {
   display: none; }
 
+#devsoftware {
+  position: relative;
+  width: 183.23px;
+  height: 40px;
+  color: #ffffff; }
+  #devsoftware-opt {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    z-index: 50;
+    height: 40px;
+    width: 183.23px;
+    background-color: #6D23B6;
+    border-radius: 50px; }
+
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
 :root {
   font-size: 16px; }
@@ -110,9 +127,6 @@
 
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
 /*+++++++++++++++++++++++++++++++ Content New CSS OOCSS*/
-.gridcolum3-5 {
-  grid-column: 3 / 5; }
-
 .navigation {
   grid-column: 1 / 6;
   display: flex;
@@ -136,9 +150,16 @@
   margin-right: 5px;
   cursor: pointer;
   box-sizing: border-box; }
-  .opt:hover {
-    background-color: #b2a9ee;
-    color: #ffffff; }
+  .opt-software {
+    position: absolute;
+    left: 0px;
+    width: 183.23px;
+    height: 40px;
+    background-color: #6D23B6;
+    rotate: 185deg;
+    border-radius: 50px; }
+    .opt-software:nth-child(1) {
+      rotate: 175deg; }
 
 .gridcol-3 {
   grid-column: 3 / 3; }
@@ -266,14 +287,15 @@
   .fs-title {
     font-size: 35px; } }
 
-@media screen and (min-width: 425px) {
-  #DSoftware::before {
-    content: 'Solicitar D.';
-    margin-right: 4px; } }
+@media screen and (max-width: 425px) {
+  .display-menu {
+    display: none; } }
 
 @media screen and (min-width: 768px) {
   .fs-title {
-    font-size: 45px; } }
+    font-size: 45px; }
+  .navigation {
+    grid-column: 2/5; } }
 
 @media screen and (min-width: 1440px) {
   .software {
