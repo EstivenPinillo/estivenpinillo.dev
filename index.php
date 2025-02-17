@@ -151,6 +151,33 @@
             </section>
         </section>
 
+        <section class="gridcol-3 mt-60" id="titulacion">
+            <header class="t-center">
+                <a class="color-280659" href="#titulacion"><h2 class="font-federo fs-b">Titulación</h2></a>
+            </header>
+            <section class="titulacion jc-spacearound mt-40">
+                <!--<img class="tit-img" src="klipartz.com.png" alt="">-->
+                <div class="titulo t-center font-federo fs-m">
+                    <div class="tit-img">Tecnologo En Analisis Y Desarrollado De Software</div>
+                    <img class="tit-img " src="/certificados/tecnologo.png" alt="">
+                </div>
+                <!--<img class="tit-img tit-reverse" src="klipartz.com.png" alt="">-->
+                <div class="titulo t-center font-federo fs-m">
+                    <div class="tit-img">Tecnico En Programacion De Software</div>
+                    <img class="tit-img " src="/certificados/tecnico.png" alt="">
+                </div>
+                <!--
+                <div class="titulo t-center font-federo fs-m">
+                    <div class="tit-img">Tecnologo En Analisis Y Desarrollado De Software</div>
+                    <div class="soon-to-be-certified">
+                        <img class="tit-img  titulo-next" src="/certificados/tecnologo.png" alt="">
+                        <p id="certified" class="color-5632a8">En Certificación . . .</p>
+                    </div>
+                </div> 
+                -->
+            </section>
+        </section>
+
         <section class="developed-software mt-40">
             <header class="header-section t-center">
                 <h2 class="font-federo fs-b color-280659 mt-40">Certificados</h2>
@@ -328,27 +355,6 @@
 
             </section>
         </section>
-        
-        <section class="gridcol-3 mt-60" id="titulacion">
-            <header class="t-center">
-                <a class="color-280659" href="#titulacion"><h2 class="font-federo fs-b">Titulación</h2></a>
-            </header>
-            <section class="titulacion jc-spacearound mt-40">
-                <!--<img class="tit-img" src="klipartz.com.png" alt="">-->
-                <div class="titulo t-center font-federo fs-m">
-                    <div class="tit-img">Tecnico En Programacion De Software</div>
-                    <img class="tit-img " src="tecnicoprogramacion.png" alt="">
-                </div>
-                <!--<img class="tit-img tit-reverse" src="klipartz.com.png" alt="">-->
-                <div class="titulo t-center font-federo fs-m">
-                    <div class="tit-img">Tecnologo En Analisis Y Desarrollado De Software</div>
-                    <div class="soon-to-be-certified">
-                        <img class="tit-img  titulo-next" src="tecnicoprogramacion.png" alt="">
-                        <p id="certified" class="color-5632a8">En Certificación . . .</p>
-                    </div>
-                </div>
-            </section>
-        </section>
 
         <section class="gridcol-3 mt-40 display-none">
             <header>
@@ -365,7 +371,7 @@
         </section>
         
         <footer class="foot fw-bold font-marcellus">
-            © Copyright 2023 - 2024
+            © Copyright 2023 - 2025
         </footer> 
 
     </main>
