@@ -179,11 +179,11 @@
   height: 55px;
   border-radius: 5px;
   position: relative;
-  background-color: #3E92CC;
+  background-color: #0a2463;
   color: #ffffff;
   margin: 4px;
   bottom: 32px;
-  font-family: Amita-Bold;
+  font-family: Federo;
 }
 
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
@@ -294,6 +294,11 @@
 }
 
 .developed-in {
+  display: none;
+  justify-content: center;
+}
+
+.developed-on {
   display: flex;
   justify-content: center;
 }

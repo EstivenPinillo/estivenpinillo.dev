@@ -102,18 +102,19 @@
             </header>
             <section class="software-list mt-40">
                 
-                <article class="software t-center font-philosopher br-4">
+                <article class="software t-center font-philosopher br-4" >
                     <h2 class="header-sub t-center fs-m font-federo ">Jardineria</h2>
                     <div class="img-soft br-4">
-                        <a href="jardineria/index.html" target="_blank"><img class="img-soft object-fit-cover br-4" src="jardineria/img/screempage.png" alt=""></a>
+                        <img class="img-soft object-fit-cover br-4" src="jardineria/img/screempage.png" alt="">
                         <div class="developed-in">
                             <span class="technology">HTML5</span>
                             <span class="technology">CSS3</span>
                         </div>
                     </div>
+                    
                 </article>
                 
-                <article class="software t-center font-philosopher br-4">
+                <article class="software t-center font-philosopher br-4" >
                     <h2 class="header-sub t-center fs-m font-federo ">AdmExpense</h2>
                     <div class="img-soft br-4 ">
                         <a href="https://github.com/EstivenPinillo/AdmExpense/tree/dev" target="_blank"><img class="img-soft object-fit-cover br-4" src="AdmExpense/AdmExpense.png" alt=""></a>
@@ -127,7 +128,7 @@
                     </div>
                 </article>
 
-                <article class="software t-center font-philosopher br-4">
+                <article class="software t-center font-philosopher br-4" >
                     <h2 class="header-sub t-center fs-m font-federo ">Devchallenges My team page</h2>
                     <div class="img-soft br-4 ">
                         <a href="myteampage/index.html" target="_blank"><img class="img-soft object-fit-cover br-4" src="myteampage/img/teampage.png" alt=""></a>
@@ -138,7 +139,7 @@
                     </div>
                 </article>
 
-                <article class="software t-center font-philosopher br-4">
+                <article class="software t-center font-philosopher br-4" >
                     <h2 class="header-sub t-center fs-m font-federo ">Devchallenges 404 Not found</h2>
                     <div class="img-soft br-4 ">
                         <a href="notfound404/index.html" target="_blank"><img class="img-soft object-fit-cover br-4" src="notfound404/img/notfound.png" alt=""></a>
@@ -374,6 +375,8 @@
         <footer class="foot fw-bold font-marcellus">
             © Copyright 2023 - 2025
         </footer> 
+
+        <script src="js/project.js"></script>
 
     </main>
 
