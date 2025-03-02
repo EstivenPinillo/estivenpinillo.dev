@@ -37,7 +37,8 @@
                 <span class="font-federo ml-10 color-5632a8">SENA</span>
             </div>
             <div>
-                <span class="font-marcellus">Tecnico en programacion de software.</span>
+                <span class="font-marcellus display-tecnico">Tecnico en programacion de software</span>
+                <span class="font-federo experiencia ml-10 color-5632a8">3 años de experiencia</span>
             </div>
         </header>
 
@@ -50,7 +51,7 @@
         <section class="gridcol-3 mt-40">
                 <header>
                     <h2 class="fs-m font-federo color-280659">
-                        Habilidades de analisis y desarrollo de software - ADSO
+                        Habilidades - ADSO
                     </h2>
                 </header>
                 <ul class="conocimiento font-marcellus mt-40">

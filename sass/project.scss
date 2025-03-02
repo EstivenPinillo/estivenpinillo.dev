@@ -56,6 +56,10 @@
     }
 }
 
+.color-0a2463 {
+    color: #0a2463;
+}
+
 .color-5632a8 {
     color: #D8315B;
 }
@@ -277,12 +281,21 @@ $medium-slate-blue: #7371fcff;
         margin: 2px 0px 2px 0px;
         
         &:nth-child(even) {
-            color: #3E92CC;
+            color: #D8315B;
+            
+            &:hover {
+                border: 1px solid #1E1B18;
+                cursor: pointer; 
+            }
+        }
+
+        &:last-child {
+            margin: auto;
         }
 
         &:hover {
             border: 1px solid #D8315B;
-            cursor: pointer;
+            cursor: pointer; 
         }
     }
 }
@@ -441,6 +454,15 @@ $medium-slate-blue: #7371fcff;
 @media screen and (max-width: 425px){
     .display-menu {
         display: none;
+    }
+}
+
+@media screen and (max-width: 492px){
+    .display-tecnico {
+        display: none;
+    }
+    .experiencia {
+        margin-left: 0px;
     }
 }
 
