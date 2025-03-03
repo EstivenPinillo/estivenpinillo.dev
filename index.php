@@ -107,8 +107,8 @@
                     <div class="img-soft br-4">
                         <img class="img-soft object-fit-cover br-4" src="jardineria/img/screempage.png" alt="">
                         <div class="developed-in">
-                            <span class="technology">HTML5</span>
-                            <span class="technology">CSS3</span>
+                            <span class="technology"><img src="./icon/css.svg" alt=""></span>
+                            <span class="technology"><img src="./icon/html.svg" alt=""></span>
                         </div>
                     </div>
                     
@@ -119,11 +119,10 @@
                     <div class="img-soft br-4 ">
                         <a href="https://github.com/EstivenPinillo/AdmExpense/tree/dev" target="_blank"><img class="img-soft object-fit-cover br-4" src="AdmExpense/AdmExpense.png" alt=""></a>
                         <div class="developed-in">
-                            <span class="technology ">PHP</span>
-                            <span class="technology ">JS</span>
-                            <span class="technology ">HTML5</span>
-                            <span class="technology ">CSS3</span>
-                            
+                        <span class="technology"><img src="./icon/php.svg" alt=""></span>
+                        <span class="technology"><img src="./icon/javascript.svg" alt=""></span>
+                            <span class="technology"><img src="./icon/css.svg" alt=""></span>
+                            <span class="technology"><img src="./icon/html.svg" alt=""></span>
                         </div>
                     </div>
                 </article>
@@ -133,8 +132,8 @@
                     <div class="img-soft br-4 ">
                         <a href="myteampage/index.html" target="_blank"><img class="img-soft object-fit-cover br-4" src="myteampage/img/teampage.png" alt=""></a>
                         <div class="developed-in">
-                            <span class="technology ">HTML5</span>
-                            <span class="technology ">CSS3</span>
+                            <span class="technology"><img src="./icon/css.svg" alt=""></span>
+                            <span class="technology"><img src="./icon/html.svg" alt=""></span>
                         </div>
                     </div>
                 </article>
@@ -144,8 +143,8 @@
                     <div class="img-soft br-4 ">
                         <a href="notfound404/index.html" target="_blank"><img class="img-soft object-fit-cover br-4" src="notfound404/img/notfound.png" alt=""></a>
                         <div class="developed-in">
-                            <span class="technology ">HTML5</span>
-                            <span class="technology ">CSS3</span>
+                            <span class="technology"><img src="./icon/css.svg" alt=""></span>
+                            <span class="technology"><img src="./icon/html.svg" alt=""></span>
                         </div>
                     </div>
                 </article>

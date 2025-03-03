@@ -60,8 +60,16 @@
     color: #0a2463;
 }
 
+.color-D831CA {
+    color: #D831CA;
+}
+
 .color-5632a8 {
     color: #D8315B;
+}
+
+.color-1e1b18 {
+    color: #1e1b18;
 }
 
 .border-D8315B {
@@ -205,16 +213,23 @@ $medium-slate-blue: #7371fcff;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     border-radius: 5px;
     position: relative;
-    background-color: #0a2463;
-    color: #ffffff;
+    background-color: #ffffff;
+    
     margin: 4px;
     bottom: 32px;
+    border: solid #D8315B;
     
     font-family: Federo;
+
+    &>img {
+        color: #000000;
+        font-size: 40px;
+    }
+
 }
 
 /*+++++++++++++++++++++++++++++++ Style New CSS OOCSS*/
