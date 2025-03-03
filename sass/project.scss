@@ -64,7 +64,11 @@
     color: #D831CA;
 }
 
-.color-5632a8 {
+.color-7731D8 {
+    color: #7731D8;
+}
+
+.color-D8315B {
     color: #D8315B;
 }
 
@@ -221,7 +225,7 @@ $medium-slate-blue: #7371fcff;
     
     margin: 4px;
     bottom: 32px;
-    border: solid #D8315B;
+    border: 2px solid #7731D8;
     
     font-family: Federo;
 
@@ -297,7 +301,7 @@ $medium-slate-blue: #7371fcff;
         margin: 2px 0px 2px 0px;
         
         &:nth-child(even) {
-            color: #D8315B;
+            color: #5C21AF;
             
             &:hover {
                 border: 1px solid #1E1B18;
