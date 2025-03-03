@@ -64,6 +64,10 @@
     color: #D831CA;
 }
 
+.color-AF2145 {
+    color: #AF2145;
+}
+
 .color-7731D8 {
     color: #7731D8;
 }
@@ -304,7 +308,7 @@ $medium-slate-blue: #7371fcff;
             color: #5C21AF;
             
             &:hover {
-                border: 1px solid #1E1B18;
+                border: 1px solid #D8315B;
                 cursor: pointer; 
             }
         }
@@ -314,7 +318,7 @@ $medium-slate-blue: #7371fcff;
         }
 
         &:hover {
-            border: 1px solid #D8315B;
+            border: 1px solid #7731D8;
             cursor: pointer; 
         }
     }

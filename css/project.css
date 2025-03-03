@@ -51,6 +51,10 @@
   color: #D831CA;
 }
 
+.color-AF2145 {
+  color: #AF2145;
+}
+
 .color-7731D8 {
   color: #7731D8;
 }
@@ -262,14 +266,14 @@
   color: #5C21AF;
 }
 .conocimiento > li:nth-child(even):hover {
-  border: 1px solid #1E1B18;
+  border: 1px solid #D8315B;
   cursor: pointer;
 }
 .conocimiento > li:last-child {
   margin: auto;
 }
 .conocimiento > li:hover {
-  border: 1px solid #D8315B;
+  border: 1px solid #7731D8;
   cursor: pointer;
 }
 

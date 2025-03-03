@@ -34,11 +34,11 @@
             </h1>
             <div>
                 <span class="font-marcellus">Tecnologo en analisis y desarrollo de software</span>
-                <span class="font-federo ml-10 color-7731D8">SENA</span>
+                <span class="font-federo ml-10 color-AF2145">SENA</span>
             </div>
             <div>
                 <span class="font-marcellus display-tecnico">Tecnico en programacion de software</span>
-                <span class="font-federo experiencia ml-10 color-7731D8">3 años de experiencia</span>
+                <span class="font-federo experiencia ml-10 color-AF2145">3 años de experiencia</span>
             </div>
         </header>
 
