@@ -157,16 +157,16 @@
                 <a class="color-280659" href="#titulacion"><h2 class="font-federo fs-b">Titulación</h2></a>
             </header>
             <section class="titulacion jc-spacearound mt-40">
-                <!--<img class="tit-img" src="klipartz.com.png" alt="">-->
+                <img class="tit-img statue" src="klipartz.com.png" alt="">
                 <div class="titulo t-center font-federo fs-m">
                     <div class="tit-img">Tecnologo En Analisis Y Desarrollado De Software</div>
-                    <img class="tit-img " src="/certificados/tecnologo.png" alt="">
+                    <img class="tit-img" src="/certificados/tecnologo.png" alt="">
                 </div>
-                <!--<img class="tit-img tit-reverse" src="klipartz.com.png" alt="">-->
                 <div class="titulo t-center font-federo fs-m">
                     <div class="tit-img">Tecnico En Programacion De Software</div>
-                    <img class="tit-img " src="/certificados/tecnico.png" alt="">
+                    <img class="tit-img" src="/certificados/tecnico.png" alt="">
                 </div>
+                <img class="tit-img statue tit-reverse" src="klipartz.com.png" alt="">
                 <!--
                 <div class="titulo t-center font-federo fs-m">
                     <div class="tit-img">Tecnologo En Analisis Y Desarrollado De Software</div>

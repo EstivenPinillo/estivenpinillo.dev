@@ -385,8 +385,12 @@ $medium-slate-blue: #7371fcff;
 .tit-img {
     width: 300px;
     object-fit: contain;
-    
 }
+
+.statue {
+    display: none;
+}
+
 
 .tit-reverse {
     transform: rotateY(180deg);
@@ -421,6 +425,7 @@ $medium-slate-blue: #7371fcff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .titulo-next {
@@ -460,6 +465,24 @@ $medium-slate-blue: #7371fcff;
 
     #carabali {
         display: inline;
+    }
+}
+
+@media screen and (min-width: 696px){
+    .statue {
+        display: block;
+    }
+
+    #titulacion {
+        grid-column: 1/6;
+        
+    }
+}
+
+@media screen and (min-width: 899px) and (max-width: 1200px) {
+    .titulacion {
+        width: 899px;
+        margin: auto;
     }
 }
 /*++++++++++++++++++++++++++++ ID EndNew CSS OOCSS*/
