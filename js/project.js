@@ -15,4 +15,3 @@ function softwareOn () {
         software[i].addEventListener("mouseout",removeDevelopedOn);
     }
 }
-softwareOn();
