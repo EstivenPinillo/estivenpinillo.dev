@@ -105,13 +105,20 @@
                 <article class="software t-center font-philosopher br-4" >
                     <h2 class="header-sub t-center fs-m font-federo ">Jardineria</h2>
                     <div class="img-soft br-4">
-                    <a href="jardineria/index.html" target="_blank"><img class="img-soft object-fit-cover br-4" src="jardineria/img/screempage.png" alt=""></a>
+                        <a href="jardineria/index.html" target="_blank"><img class="img-soft object-fit-cover br-4" src="jardineria/img/screempage.png" alt=""></a>
                         <div class="developed-in">
                             <span class="technology"><img src="./icon/css.svg" alt=""></span>
                             <span class="technology"><img src="./icon/html.svg" alt=""></span>
                         </div>
                     </div>
-                    
+                    <section class="display-none">
+                        <header>
+                            Jardineria
+                        </header>
+                        <div>
+
+                        </div>
+                    </section>
                 </article>
                 
                 <article class="software t-center font-philosopher br-4" >
