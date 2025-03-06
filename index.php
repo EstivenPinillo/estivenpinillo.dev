@@ -111,14 +111,6 @@
                             <span class="technology"><img src="./icon/html.svg" alt=""></span>
                         </div>
                     </div>
-                    <section class="display-none">
-                        <header>
-                            Jardineria
-                        </header>
-                        <div>
-
-                        </div>
-                    </section>
                 </article>
                 
                 <article class="software t-center font-philosopher br-4" >
@@ -156,6 +148,20 @@
                     </div>
                 </article>
                 
+                <section class="projec t-modal font-marcellus display-none">
+                    <article class="modal">
+                        <h2 class="modal-title fs-title">
+                            Proyecto: Jardineria
+                        </h2>
+                        <div class="modal-img">
+                            <img class="modal-img" src="jardineria/img/screempage.png" alt="">
+                        </div>
+                        <div class="developed-in">
+                            
+                        </div>
+                    </article>
+                </section>
+
             </section>
         </section>
 
