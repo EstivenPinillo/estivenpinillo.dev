@@ -17,12 +17,12 @@
 
         <nav class="navigation font-federo">
             <ul class="navigation-opt">
-                <!--
+                
                 <li id="devsoftware" class="opt fs-m color-1e1b18">
                     <span class="opt-software"></span>
                     <span id="devsoftware-opt">Solicitar D. Software</span>
                     <span class="opt-software"></span>
-                </li>-->
+                </li>
                 <a class="color-1e1b18" href="#developed-software"><li class="opt fs-m">Proyectos</li></a>
                 <a class="color-1e1b18" href="#titulacion"><li class="opt fs-m">Estudios</li></a>
             </ul>
@@ -96,7 +96,7 @@
                 </ul>
         </section>
 
-        <section id="developed-software" class="developed-software mt-60">
+        <section id="developed-software" class="developed -software mt-60 display-none">
             <header class="header-section t-center">
                 <a class="font-federo fs-b color-280659" href="#developed-software">Software <span>Desarrollado</span></a>
             </header>
@@ -165,7 +165,7 @@
             </section>
         </section>
 
-        <section class="gridcol-3 mt-60" id="titulacion">
+        <section class="gridcol-3 mt-60 display-none" id="titulacion">
             <header class="t-center">
                 <a class="color-280659" href="#titulacion"><h2 class="font-federo fs-b">Titulación</h2></a>
             </header>
@@ -192,7 +192,7 @@
             </section>
         </section>
 
-        <section class="developed-software mt-40">
+        <section class="developed -software mt-40 display-none">
             <header class="header-section t-center">
                 <h2 class="font-federo fs-b color-280659 mt-40">Certificados</h2>
             </header>
