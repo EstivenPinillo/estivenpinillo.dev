@@ -1,0 +1,104 @@
+:host {
+    grid-column: 3/4;
+    margin-top: 4rem;
+    
+}
+
+.sect-perfil {
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@mixin DisplayNone {
+    display: none;
+}
+
+@mixin DisplayInline {
+    display: inline;
+}
+
+#marlon {
+    @include DisplayNone;
+}
+#carabali {
+    @include DisplayNone;
+}
+
+#tecnico {
+    @include DisplayNone;
+}
+
+.header-main {
+    font-weight: bold;
+}
+
+.tecnologo {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.skills-resumen {
+    display: flex;
+    //margin-top: 1rem;
+    font-size: 1.4rem;
+
+    &>li {
+        
+        border-radius: 1rem;
+        margin-right: 1rem;
+        //text-shadow: 1px 1px 0px #511ABA;
+
+        &:first-child {
+            //padding-left: 0px;
+        }
+    }
+
+
+}
+
+@media screen and (min-width: 341px){
+
+    .tecnologo {
+        font-size: 1.6rem;
+    }
+    .skills-resumen {
+        font-size: 1.6rem;
+    }
+
+}
+
+@media screen and (min-width: 496px){
+
+    #carabali {
+        //@include DisplayInline;
+    }
+    
+}
+
+@media screen and (min-width: 426px) and (max-width: 655px){
+    
+    .sect-perfil {
+        
+        display: flex;
+        justify-content: space-evenly;
+        width: 400px;
+        margin: auto;   
+    }
+}
+
+@media screen and (min-width: 656px){
+
+    #marlon {
+        @include DisplayInline;
+    }
+    
+    .sect-perfil {
+        
+        display: flex;
+        justify-content: space-between;
+        
+        margin: auto;
+        
+    }
+    
+}
