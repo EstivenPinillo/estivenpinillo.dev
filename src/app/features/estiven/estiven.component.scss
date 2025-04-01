@@ -1,0 +1,25 @@
+:host {
+    grid-column: 3/4;
+}
+
+.img-perfil {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.img-estiven {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 655px) {
+    
+    .img-perfil {
+        margin-top: 0rem;
+    }
+
+}
