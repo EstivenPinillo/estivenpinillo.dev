@@ -1,8 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(./app/assets/scss/reset.scss);
 
-$black: #09090B;
-
-:root {
-    background-color: $black;
+@font-face {
+    font-family: Federo;
+    src: url(./app/assets/fonts/Federo-Regular.ttf);
 }
 
+@font-face {
+    font-family: Marcellus;
+    src: url(./app/assets/fonts/Marcellus-Regular.ttf);
+}
+
+$black_09090B: #14080E;
+
+:root {
+    
+    //background-color: #eef0f2;
+    //background-color: #55008E;
+    //background-color: #5A48F1;
+    background-color: #FFFFFF;
+    font-size: 10px;
+    font-family: Marcellus;
+    color: #14080E;
+    //color: #eef0f2;
+
+}
+
+.marcellus {
+    font-family: Marcellus;
+}
+
+.federo {
+    font-family: Federo;
+}
+
+.fz-5rem {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.fz-3rem {
+    font-size: 2.5rem;
+}
+
+.color-14080E-night {
+    color: #14080E;
+}
+
+.color-eef0f2-day {
+    color: #eef0f2;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+  }

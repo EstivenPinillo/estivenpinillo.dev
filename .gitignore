@@ -6,6 +6,11 @@
 /out-tsc
 /bazel-out
 
+src/app/features/navbar
+src/app/features/project
+src/app/features/skills
+src/app/features/software
+
 # Node
 /node_modules
 npm-debug.log

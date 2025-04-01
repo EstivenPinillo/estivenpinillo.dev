@@ -1,12 +1,18 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { PerfilComponent } from './features/perfil/perfil.component';
+import { EstivenComponent } from './features/estiven/estiven.component';
+import { SkillsComponent } from './features/skills/skills.component';
+import { NavbarComponent } from './features/navbar/navbar.component';
+import { WaveComponent } from './features/wave/wave.component';
+import { SoftwareComponent } from './features/software/software.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [NavbarComponent, PerfilComponent, EstivenComponent,
+            SkillsComponent, WaveComponent, SoftwareComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'estivenpinillo.adso';
+  
 }
