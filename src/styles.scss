@@ -34,6 +34,26 @@ $black_09090B: #14080E;
     font-family: Federo;
 }
 
+.mt-03 {
+    margin-top: 0.3rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
 .fz-5rem {
     font-size: 5rem;
     font-weight: bold;
@@ -41,6 +61,10 @@ $black_09090B: #14080E;
 
 .fz-3rem {
     font-size: 2.5rem;
+}
+
+.font-bold {
+    font-weight: bold;
 }
 
 .color-14080E-night {
