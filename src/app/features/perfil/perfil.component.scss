@@ -63,10 +63,6 @@
 }
 
 @media screen and (min-width: 656px){
-
-    #carabali {
-        @include DisplayInline;
-    }
     
     .section-perfil {
         
@@ -78,7 +74,18 @@
     }
 
     :host {
-        width: 650px;
+        width: 600px;
     }
     
+}
+
+
+@media screen and (min-width: 768px) {
+    #carabali {
+        @include DisplayInline;
+    }
+
+    :host {
+        width: 650px;
+    }
 }

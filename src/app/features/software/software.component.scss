@@ -1,6 +1,6 @@
 :host {
     grid-column: 1/6;
-    margin-top: 10rem;   
+    //argin-top: 10rem;   
 }
 
 .software {
@@ -14,7 +14,7 @@
         flex-wrap: wrap;
         justify-content: center;
 
-        &>span {
+        &>span:first-child {
             padding-right: 1.2rem;
         }
     }
