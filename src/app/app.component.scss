@@ -26,9 +26,19 @@ $columns: 1fr 0.5rem auto 0.5rem 1fr ;
     }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    $columns: 1fr 1fr 650px 1fr 1fr ;
+
+    :host{
+        grid-template-columns: $columns;
+    }
+}
+
+
 @media screen and (min-width: 1200px){
 
-    $columns: 1fr 3rem 1100px 3rem 1fr ;
+    $columns: 1fr 1fr 1100px 1fr 1fr ;
 
     :host{
         grid-template-columns: $columns;
