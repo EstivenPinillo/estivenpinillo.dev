@@ -10,7 +10,6 @@
     border-bottom: 0.1rem solid  #14080E;
     
     height: 6rem;
-    //background-color: #eef0f2;
 
     &-checkbox:checked + .nav-links{
         display: flex;
@@ -37,6 +36,13 @@
             border: 1px solid #14080E;
             cursor: pointer;
             background-color: #FFFFFF;
+
+            &>a {
+                text-decoration: none;
+                &:visited {
+                    color: #14080E;
+                }
+            }
         }
     }
 
@@ -45,7 +51,6 @@
         cursor: pointer;
         background-color: #FFFFFF;
         border-radius: 50%;
-        //border-left: 1px solid #14080E;
     }
 
 }
