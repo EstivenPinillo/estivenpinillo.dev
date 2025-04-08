@@ -13,7 +13,6 @@
 .skills {
 
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 
     &-head {
@@ -25,25 +24,17 @@
     &>li {
         font-size: 1.6rem;
         padding: 1rem;
-        margin: 0.4rem 0rem 0.4rem 0rem;
+        margin: 0.5rem auto 0.5rem auto;
         border: 1px solid #09090B;
         border-radius: 0.5rem;
+
+        text-align: center;
     }
 
-    &>li:last-child {
-        margin: auto;
-    }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    
-    :host {
-        grid-column: 2/5;
-    }    
-  
-}
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     
     :host {
         grid-column: 2/5;
