@@ -14,6 +14,7 @@ interface MenuOption {
 export class NavbarComponent {
 
     menuTitle: string = "Portafolio profesional";
+    menuIcon: string = "./assets/img/stacks.svg";
 
     menuOptions: MenuOption[] = [
 
