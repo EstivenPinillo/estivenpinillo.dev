@@ -2,27 +2,24 @@
     <header class="header-main">
         <div>
             <h1 class="federo fz-5rem">
-                <span id="marlon">Marlon</span> Estiven Pinillo <span id="carabali">Carabali</span>
+                <span id="marlon">{{firtName}}</span> {{name}} <span id="carabali">{{lastName}}</span>
             </h1>
             <div>
                 <span class="professional font-bold">
-                    Tecnólogo en análisis y desarrollo de software
+                    {{softwareDevelopment}}
                 </span>
             </div>
             <div class="professional mt-03">
-                <div class="font-bold">Desarrollador web full-stack</div>
+                <div class="font-bold">{{developmentFullStack}}</div>
             </div>
         </div>
         <app-estiven></app-estiven>
     </header>
     
     <div class="little-about-me mt-4">
-        <h2 class="little-title federo mt-2 mb-1">Perfil efímero</h2>
+        <h2 class="little-title federo mt-2 mb-1">{{ephemeralProfile}}</h2>
         <span>
-            Gozo de una sólida formación técnica y experiencia en la construcción de soluciones web eficientes.
-            Me especializo en Laravel para el backend y Angular.js para el frontend, integro ambas tecnologías para desarrollar aplicaciones robustas y escalables.
-            Aplico los principios de ingeniería de requerimientos y estándares de calidad basados en la norma ISO/IEC 25000, 
-            asegurando desarrollos alineados a las necesidades del usuario y con altos niveles de calidad.
+            {{descriptionProfile}}
         </span>
     </div>
 </section>
