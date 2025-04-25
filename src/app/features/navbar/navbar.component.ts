@@ -13,6 +13,8 @@ interface MenuOption {
 })
 export class NavbarComponent {
 
+    menuTitle: string = "Portafolio profesional";
+
     menuOptions: MenuOption[] = [
 
         {
