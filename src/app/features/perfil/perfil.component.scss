@@ -36,6 +36,7 @@
     &-about-me {
         font-size: 1.6rem;
         text-align: justify;
+        text-align-last: center;
     }
 
     &-title {
@@ -52,7 +53,7 @@
 
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 768px) and (max-width: 1440px) {
     :host {
         grid-column: 2/5;
         margin: auto;
