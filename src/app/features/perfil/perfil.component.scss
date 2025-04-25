@@ -3,7 +3,7 @@
     margin: auto;
 }
 
-.section-perfil {
+.header-main {
     flex-wrap: wrap;
     align-items: center;
 }
@@ -35,11 +35,12 @@
 
     &-about-me {
         font-size: 1.6rem;
-        text-align: center;
+        text-align: justify;
     }
 
     &-title {
         font-size: 1.8rem;
+        text-align: center;
     }
 }
 
@@ -51,30 +52,31 @@
 
 }
 
+@media screen and (min-width: 426px) {
+    :host {
+        grid-column: 2/5;
+        margin: auto;
+    }
+}
+
 @media screen and (min-width: 426px) and (max-width: 655px){
-    
-    .section-perfil {
-        
+
+    .header-main {
         display: flex;
         justify-content: space-evenly;
         width: 400px;
-        margin: auto;   
+        margin: auto; 
     }
 }
 
 @media screen and (min-width: 656px){
-    
-    .section-perfil {
+
+    .header-main {
         
         display: flex;
         justify-content: space-between;
-        
-        margin: auto;
-        
-    }
-
-    :host {
-        width: 600px;
+        margin: auto;   
+        width: 600px; //section-perfil
     }
     
 }
@@ -85,7 +87,8 @@
         @include DisplayInline;
     }
 
-    :host {
+    .header-main {
         width: 650px;
     }
+
 }

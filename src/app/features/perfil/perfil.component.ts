@@ -9,5 +9,6 @@ import { EstivenComponent } from '../estiven/estiven.component';
 })
 export class PerfilComponent {
 
-    public estiven:string = "./assets/img/estiven.jpg";
+    ephemeralIntroduction: string = "";
+    
 }
