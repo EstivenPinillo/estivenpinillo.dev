@@ -13,19 +13,16 @@
 
 @font-face {
     font-family: Caramella;
-    //src: url(./app/assets/fonts/MeridiesAntiqua.otf);
-    //src: url(./app/assets/fonts/Narrenschiff-Light.otf);
-    //src: url(./app/assets/fonts/Narrenschiff-Light.otf);
-    //src: url(./app/assets/fonts/Postamt.ttf);
-    //src: url(./app/assets/fonts/SenzaBella-Light.otf);
-    //src: url(./app/assets/fonts/SIKAT.ttf);
-    //src: url(./app/assets/fonts/KingRichardRg.otf);
-    //src: url(./app/assets/fonts/Katas.ttf);
-    //src: url(./app/assets/fonts/FactoryLJDS.ttf);
-    //src: url(./app/assets/fonts/CATLinz_1.8.ttf);
     src: url(./app/assets/fonts/Caramella_Regular.ttf);
-    //src: url(./app/assets/fonts/Marcellus-Regular.ttf);
+}
 
+@font-face {
+    font-family: Klik;
+    src: url(./app/assets/fonts/Klik-Light.otf);
+}
+
+.klik {
+    font-family: Klik;
 }
 
 .caramella {
