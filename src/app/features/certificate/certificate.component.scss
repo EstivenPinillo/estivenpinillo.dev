@@ -25,12 +25,19 @@
 
 }
 
-.institution-u {
+.header-sub {
+    margin-top: .5rem;
+}
 
-    width: 30rem;
-    
-    font-size: 2rem;
-    text-align: center;
+.institution {
+
+    margin-bottom: .5rem;
+
+    &-u {
+        width: 30rem;
+        font-size: 2rem;
+        text-align: center;
+    }
 }
 
 .certificate-complementary {
