@@ -13,7 +13,7 @@ interface MenuOption {
 })
 export class NavbarComponent {
 
-    menuTitle: string = "Portafolio profesional";
+    menuTitle: string = "Agradecido con Dios";
     menuIcon: string = "./assets/img/stacks.svg";
 
     menuOptions: MenuOption[] = [

@@ -1,10 +1,12 @@
-<nav class="nav federo mb-14">
-    <div class="font-bold">{{menuTitle}}</div>
+<nav class="nav klik mb-14">
+    <div class="jaceline fz-5rem">{{menuTitle}}</div>
     <input type="checkbox" id="nav-checkbox" class="nav-checkbox display-none" >
-    <ul class="nav-links font-bold">
+    <ul class="nav-links ">
 
         @for (item of menuOptions; track item) {
-            <li><a href="{{ item.href }}"> {{ item.name }}</a></li>
+            <a href="{{ item.href }}">
+                <li>{{ item.name }}</li>
+            </a>
         }
        
     </ul>

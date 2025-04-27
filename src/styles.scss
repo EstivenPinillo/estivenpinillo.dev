@@ -21,16 +21,21 @@
     src: url(./app/assets/fonts/Klik-Light.otf);
 }
 
+@font-face {
+    font-family: Jaceline;
+    src: url(./app/assets/fonts/Jaceline.ttf);
+}
+
+.jaceline {
+    font-family: Jaceline;
+}
+
 .klik {
     font-family: Klik;
 }
 
 .caramella {
     font-family: Caramella;
-}
-
-.font-24 {
-    font-size: 18px;
 }
 
 $black_09090B: #14080E;
@@ -149,7 +154,6 @@ $black_09090B: #14080E;
 
 .fz-5rem {
     font-size: 5rem;
-    font-weight: bold;
 }
 
 .fz-3rem {
