@@ -12,7 +12,7 @@ export class PerfilComponent {
     firtName: string = "Marlon";
     lastName: string = "Carabali";
     name: string = "Estiven Pinillo";
-    ephemeralProfile: string = "Perfil efímero";
+    ephemeralProfile: string = "Sinopsis";
     softwareDevelopment: string = "Tecnólogo en análisis y desarrollo de software";
     developmentFullStack: string = "Desarrollador web full-stack";
     
