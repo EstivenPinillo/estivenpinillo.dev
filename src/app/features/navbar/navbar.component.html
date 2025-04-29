@@ -5,7 +5,7 @@
 
         @for (item of menuOptions; track item) {
             <a href="{{ item.href }}">
-                <li>{{ item.name }}</li>
+                <li class="menu-options" (mouseenter)="menuAnime($event)">{{ item.name }}</li>
             </a>
         }
        
